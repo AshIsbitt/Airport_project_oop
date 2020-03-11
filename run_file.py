@@ -25,6 +25,7 @@ def switchboard():
             num_of_passengers = input("How many passengers: ")
             plane = int(input("Enter plane ID: ")) - 1
             flight_list.append(Flight_Trip(origin, dest, num_of_passengers, plane_list[plane].get_plane_id()))
+            print("New flight created")
         elif entry == "2":
             name = input("Enter name: ")
             passenger_list.append(Passenger(name, len(passenger_list) + 1))
