@@ -1,7 +1,7 @@
 # do the simplest SIMPLEST
 
 # switch board
-from passanger_class import *
+from passenger_class import *
 from plane_class import *
 from flight_trip_class import *
 
